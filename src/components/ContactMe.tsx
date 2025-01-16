@@ -1,7 +1,7 @@
 // src/components/ContactMe.tsx
 import React from 'react';
 const ContactMe: React.FC = () => {
-  const email = 'parakhgupta.work@gmail.com';
+  const email = 'parakhgupta.work.com';
   // Function to handle the copy action
   const copyToClipboard = () => {
     navigator.clipboard.writeText(email)

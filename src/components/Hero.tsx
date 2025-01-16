@@ -35,11 +35,23 @@ const Hero: React.FC = () => {
             />
           </h2>
 
+          {/* Contact Me Button */}
           <a
             href="#contact"
             className="bg-yellow-300 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition"
           >
             Contact Me
+          </a>
+
+          {/* Download Resume Button */}
+          <a
+            href="/parakhResume.pdf"  // Correct path to the resume in the public folder
+            download="Parakh_Gupta_Resume.pdf"  // Default name for the downloaded file
+            className="mt-4" // Ensures there is some space between buttons
+          >
+            <button className="bg-yellow-300 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition">
+              Download Resume
+            </button>
           </a>
         </div>
 
