@@ -1,9 +1,8 @@
 import React from "react";
-import { FaEnvelope, FaPhone, FaClipboard } from "react-icons/fa";
+import { FaEnvelope, FaClipboard } from "react-icons/fa";
 
 const ContactMe: React.FC = () => {
-  const email = "parakhgupta.work@gmail.com"; // Correct your email if needed
-  const phone = "8368986551";
+  const email = "parakhgupta.work@gmail.com"; 
 
   // Function to copy text to clipboard
   const copyToClipboard = (text: string) => {
@@ -38,20 +37,6 @@ const ContactMe: React.FC = () => {
               <FaClipboard size={18} />
             </button>
           </div>
-
-          {/* Phone Number */}
-          <div className="flex items-center justify-between bg-white/20 px-4 py-3 rounded-lg">
-            <div className="flex items-center space-x-3">
-              <FaPhone className="text-yellow-300 text-xl" />
-              <span className="text-gray-100">{phone}</span>
-            </div>
-            <button
-              onClick={() => copyToClipboard(phone)}
-              className="text-white hover:text-yellow-300 transition"
-            >
-              <FaClipboard size={18} />
-            </button>
-          </div>
         </div>
 
         {/* CTA Buttons */}
@@ -61,12 +46,6 @@ const ContactMe: React.FC = () => {
             className="bg-yellow-300 text-gray-900 font-semibold py-3 rounded-lg hover:bg-yellow-400 transition"
           >
             Send an Email
-          </a>
-          <a
-            href={`tel:${phone}`}
-            className="bg-yellow-300 text-gray-900 font-semibold py-3 rounded-lg hover:bg-yellow-400 transition"
-          >
-            Call Me
           </a>
         </div>
       </div>
