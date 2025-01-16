@@ -8,6 +8,7 @@ import Education from './components/Education';
 import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Skills from './components/Skills';
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
       <About />
       <Projects />
       <WorkExperience />
+      <Skills/>
       <Education />
       <ContactMe />
       <Footer />

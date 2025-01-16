@@ -1,12 +1,12 @@
 // src/components/Hero.tsx
-import React from 'react';
-import ReactTypingEffect from 'react-typing-effect';
+import React from "react";
+import { Typewriter } from "react-simple-typewriter";
 
 const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className="bg-gradient-to-r from-blue-500 to-purple-600 text-white min-h-screen flex items-center justify-center"
+      className="bg-gradient-to-r from-gray-900 to-gray-700 text-white min-h-screen flex items-center justify-center"
     >
       <div className="container mx-auto flex flex-col md:flex-row items-center px-6 md:px-12">
         {/* Left: Description */}
@@ -14,18 +14,27 @@ const Hero: React.FC = () => {
           <h1 className="text-5xl md:text-7xl font-extrabold leading-tight">
             Hi, I'm <span className="text-yellow-300">Parakh Gupta</span>
           </h1>
-          <ReactTypingEffect
-            text={[
-              "I'm a passionate developer",
-              "Specializing in creating beautiful, responsive, and user-friendly websites",
-              "Let's build something amazing together!",
-            ]}
-            speed={200} // Typing speed
-            eraseSpeed={100} // Erase speed
-            typingDelay={500} // Delay before typing starts
-            eraseDelay={2000} // Delay before erasing starts
-            className="text-xl md:text-2xl text-yellow-300 font-semibold mt-4"
-          />
+
+          {/* Typewriter Effect */}
+          <h2 className="text-xl md:text-2xl text-yellow-300 font-semibold mt-4">
+            <Typewriter
+              words={[
+                "I'm a passionate software developer",
+                "Specializing in building web & mobile apps",
+                "Crafting seamless web & mobile experiences with precision.",
+                "Building high-performance web & mobile apps that make an impact.",
+                "Transforming visions into reality through code and creativity.",
+                "Let's build something amazing together!",
+              ]}
+              loop={true}
+              cursor
+              cursorStyle="|"
+              typeSpeed={500}
+              deleteSpeed={150}
+              delaySpeed={1000}
+            />
+          </h2>
+
           <a
             href="#contact"
             className="bg-yellow-300 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition"
@@ -37,9 +46,9 @@ const Hero: React.FC = () => {
         {/* Right: Image */}
         <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
           <img
-            src="/Personal_image.jpeg" // Correct path to the image
+            src="/Personal_image.jpeg"
             alt="Parakh Gupta"
-            className="rounded-full shadow-lg max-w-xs object-cover" // Adjusted for smaller height
+            className="rounded-full shadow-lg max-w-xs object-cover"
           />
         </div>
       </div>

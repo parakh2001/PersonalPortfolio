@@ -9,10 +9,35 @@ const About: React.FC = () => {
         <h2 className="text-4xl font-semibold text-gray-800 mb-6">
           About Me
         </h2>
+        
+        {/* Description */}
+        <p className="text-lg text-gray-700 leading-relaxed tracking-wide mb-6">
+          Hi, I’m <span className="font-bold text-blue-600">Parakh Gupta</span>, a passionate 
+          <span className="font-semibold text-gray-800"> Android and Full-Stack Developer </span> 
+          who loves crafting seamless digital experiences. I specialize in building full-stack web applications and Android apps, focusing on 
+          <span className="font-semibold text-gray-800"> performance, scalability,</span> and <span className="font-semibold text-gray-800">user experience.</span>
+        </p>
 
-        {/* About Paragraph */}
-        <p className="text-lg text-gray-700 mb-8 leading-relaxed tracking-wide">
-          Hi, I’m <span className="font-bold text-blue-600">[Your Name]</span>, a passionate web developer focused on creating user-friendly, responsive, and efficient web applications. With expertise in technologies such as <span className="font-semibold text-purple-600">React</span>, <span className="font-semibold text-yellow-500">TypeScript</span>, and <span className="font-semibold text-teal-500">Tailwind CSS</span>, I am committed to delivering high-quality solutions that exceed client expectations.
+        {/* Tech Stack */}
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold text-gray-800 mb-4">Tech Stack</h3>
+          <ul className="text-gray-700 text-lg space-y-2 text-left max-w-md mx-auto">
+            <li>🚀 <span className="font-semibold">Frontend:</span> React.js, Next.js, React Native</li>
+            <li>⚙️ <span className="font-semibold">Backend:</span> Node.js, Firebase</li>
+            <li>📱 <span className="font-semibold">Mobile Development:</span> Flutter (Provider State Management, Clean Architecture)</li>
+            <li>📊 <span className="font-semibold">Databases:</span> MongoDB, PostgreSQL</li>
+            <li>🔧 <span className="font-semibold">DevOps:</span> Basic CI/CD, Deployment Strategies</li>
+          </ul>
+        </div>
+
+        {/* Conclusion */}
+        <p className="text-lg text-gray-700 mt-6 leading-relaxed">
+          I thrive on solving complex problems and building innovative solutions. Whether it's designing scalable architectures, optimizing performance, or experimenting with new technologies, 
+          I’m always eager to <span className="font-semibold text-blue-600">learn and improve.</span>
+        </p>
+        
+        <p className="text-xl font-semibold text-gray-800 mt-4">
+          Let’s connect and build something amazing! 🚀
         </p>
       </div>
     </section>

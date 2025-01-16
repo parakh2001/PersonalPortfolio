@@ -1,9 +1,7 @@
 // src/components/ContactMe.tsx
 import React from 'react';
-
 const ContactMe: React.FC = () => {
   const email = 'parakhgupta.work@gmail.com';
-
   // Function to handle the copy action
   const copyToClipboard = () => {
     navigator.clipboard.writeText(email)
@@ -14,7 +12,6 @@ const ContactMe: React.FC = () => {
         console.error('Failed to copy: ', err);
       });
   };
-
   return (
     <section id="contact" className="bg-gradient-to-r from-gray-800 to-gray-600 text-white py-20 px-4">
       <div className="container mx-auto text-center">

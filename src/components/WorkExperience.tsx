@@ -3,22 +3,22 @@ import React from 'react';
 
 const workExperiences = [
   {
-    title: 'Frontend Developer at ABC Corp',
-    duration: 'Jan 2021 - Present',
+    title: 'Android Developer Executive at Gowaggon',
+    duration: 'July 2024 - Present',
     description:
-      'Responsible for developing and maintaining the company\'s main website, utilizing React.js and Tailwind CSS to create a responsive, user-friendly experience.',
+      'Responsible for developing and maintaining the company\'s inspection application with over 1500+ car inspections.Integrated with company\'s and CRM.',
   },
   {
-    title: 'Software Engineer Intern at XYZ Ltd',
-    duration: 'Jun 2020 - Dec 2020',
+    title: 'Android Developer in Xplicit',
+    duration: 'Feb 2024-July 2024',
     description:
-      'Worked with a team of engineers to develop a web application, primarily using JavaScript, HTML, CSS, and Node.js. Focused on improving the front-end performance and ensuring smooth user experience.',
+      'Worked and collaborated with developers to create companys\'s E-commerce application in flutter.Displays more than 500 Products with add to cart functionality.'
   },
   {
-    title: 'Junior Web Developer at Tech Innovations',
-    duration: 'Aug 2019 - May 2020',
+    title: 'FullStack Developer at Areteinfo Private Limited',
+    duration: 'Dec 2023-Feb 2024',
     description:
-      'Assisted in the development of client-facing websites using WordPress, JavaScript, and custom CSS. Contributed to bug fixes and small feature enhancements across multiple projects.',
+      'Assisted in providing technical support in Stationary management system.Maintained E-cafe-lite android application.',
   },
 ];
 

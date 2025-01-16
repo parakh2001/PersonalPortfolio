@@ -1,21 +1,20 @@
 // src/components/Projects.tsx
 import React from 'react';
-
 const projects = [
   {
-    title: 'Project 1',
-    description: 'A web application built using React.js that allows users to manage tasks efficiently.',
-    url: 'https://github.com/yourusername/project1', // Replace with actual project URL
+    title: 'Pokedex',
+    description: 'Mobile application built in React native and Nodejs displays the information of more than 1000+ pokemons.',
+    url: 'https://github.com/parakh2001/Pokedex-React-Native.git',
   },
   {
-    title: 'Project 2',
-    description: 'A mobile app developed using Flutter for tracking daily expenses with user authentication via Firebase.',
-    url: 'https://github.com/yourusername/project2', // Replace with actual project URL
+    title: 'Expense Tracker',
+    description: 'Simple Expense tracker built using Reactjs and tailwindCss for styling.It displays expenses and savings and save all transaction in local Storage.',
+    url: 'https://myexpensetracker-reactjs.netlify.app/',
   },
   {
-    title: 'Project 3',
-    description: 'An e-commerce platform built with Node.js and MongoDB, featuring product listings and secure checkout functionality.',
-    url: 'https://github.com/yourusername/project3', // Replace with actual project URL
+    title: 'Chat Application',
+    description: 'A real-time chat application implemented using websockets that allows two or multiple people to create room and chat.Built using nodejs,flutter.',
+    url: 'https://github.com/parakh2001/Chat-application.git',
   },
 ];
 
