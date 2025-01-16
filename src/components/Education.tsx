@@ -9,7 +9,7 @@ const Education: React.FC = () => {
         <div className="space-y-6">
           <div className="border-l-4 border-blue-600 pl-4">
             <h3 className="text-xl font-semibold">Bachelor of Technology</h3>
-            <p className="text-gray-600">Jaypee institute of information technology(2023)</p>
+            <p className="text-gray-600">Jaypee institute of information technology</p>
           </div>
           {/* Repeat for more education entries */}
         </div>
