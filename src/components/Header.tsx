@@ -7,7 +7,7 @@ const Header: React.FC = () => {
         {/* Logo or Name */}
         <div className="text-2xl font-extrabold text-white tracking-wide">
           <a href="#hero" className="hover:text-yellow-300 transition duration-300">
-            Parakh's Portfolio
+            Parakh Gupta
           </a>
         </div>
 
